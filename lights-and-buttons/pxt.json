@@ -1,0 +1,21 @@
+{
+    "name": "Lights and Buttons",
+    "version": "0.0.0",
+    "description": "User generated light and button Jacdac clients",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac",
+        "jacdac-button": "github:microsoft/pxt-jacdac/button",
+        "lightbulb": "github:ssande-fwd/demo-extension/lightbulb"
+    },
+    "files": [
+        "client.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ]
+}

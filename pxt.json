@@ -1,0 +1,15 @@
+{
+    "name": "demo-extension",
+    "version": "0.0.0",
+    "description": "Generic code for demonstrating things in Jacdac / MakeCode.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac#v1.9.32",
+        "lights-and-buttons": "github:ssande-fwd/demo-extension/lights-and-buttons"
+    },
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ]
+}

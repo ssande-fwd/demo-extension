@@ -1,0 +1,22 @@
+{
+    "name": "jacdac-lightbulb",
+    "version": "0.0.0",
+    "description": "Controls LED lights",
+    "files": [
+        "constants.ts",
+        "client.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac"
+    },
+    "testDependencies": {
+        "nucleo-f411re": "*"
+    }
+}
