@@ -43,7 +43,7 @@ namespace customButton {
      * @param event Button pressed (down), held, released (up)
      */
     //% group="Button"
-    //% block="%button $event"
+    //% block="on %button $event"
     //% blockId=is_button_event
     demoIsButtonEvent(event: jacdac.ButtonEvent): boolean { return true }
 
