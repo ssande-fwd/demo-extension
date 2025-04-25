@@ -1,4 +1,4 @@
-namespace lightsAndButtons {
+namespace customButton {
   
   export class ButtonClient extends modules.ButtonClient {
 
@@ -50,61 +50,13 @@ namespace lightsAndButtons {
   export function createbutton(): ButtonClient {
       
     let role = "";
-    if (lightsAndButtons.ButtonClient.getCreatedCount() === 0) {
+    if (customButton.ButtonClient.getCreatedCount() === 0) {
         role = 'button'
     } else {
-        role = 'button' + (lightsAndButtons.ButtonClient.getCreatedCount() + 1)
+        role = 'button' + (customButton.ButtonClient.getCreatedCount() + 1)
     }
     
     return new ButtonClient(role)
-  }
-
-  
-  export class LightClient extends modules.LightbulbClient {
-
-    private static instanceCount = 0;
-
-    constructor(role: string) {
-      super(role)
-    }
-
-    static getCreatedCount(): number {
-      return LightClient.instanceCount;
-    }
-
-    /**
-     * Indicates the brightness of the light bulb. Zero means completely off and 0xffff means completely on.
-     * For non-dimmable lights, the value should be clamp to 0xffff for any non-zero value.
-     */
-    //% group="Light"
-    //% blockId=jacdac_light_brightness___set
-    //% block="set %light brightness to %value (\\%)"
-    //% weight=100
-    //% value.min=0
-    //% value.max=100
-    //% value.defl=100
-    setBrightness(value: number) {
-      super.setBrightness(value);
-    }
-  }
-
-  /**
-   * Create a light client and automtically set it to a variable.
-   */
-  //% group="Light"
-  //% block="Create Light"
-  //% blockSetVariable=light
-  //% weight=101
-  export function createlight(): LightClient {
-      
-    let role = "";
-    if (lightsAndButtons.LightClient.getCreatedCount() === 0) {
-        role = 'light'
-    } else {
-        role = 'light' + (lightsAndButtons.LightClient.getCreatedCount() + 1)
-    }
-    
-    return new LightClient(role)
   }
 }
   

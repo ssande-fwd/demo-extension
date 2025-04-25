@@ -1,13 +1,12 @@
 {
-    "name": "Lights and Buttons",
+    "name": "Custom Button",
     "version": "0.0.1",
-    "description": "User generated light and button Jacdac clients",
+    "description": "User generated button Jacdac clients",
     "license": "MIT",
     "dependencies": {
         "core": "*",
         "jacdac": "github:microsoft/pxt-jacdac",
-        "jacdac-button": "github:microsoft/pxt-jacdac/button",
-        "lightbulb": "github:ssande-fwd/demo-extension/lightbulb"
+        "jacdac-button": "github:microsoft/pxt-jacdac/button"
     },
     "files": [
         "client.ts"

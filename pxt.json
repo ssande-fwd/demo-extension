@@ -6,7 +6,7 @@
     "dependencies": {
         "core": "*",
         "jacdac": "github:microsoft/pxt-jacdac#v1.9.32",
-        "lights-and-buttons": "github:ssande-fwd/demo-extension/lights-and-buttons"
+        "custom-button": "github:ssande-fwd/demo-extension/custom-button"
     },
     "files": [
         
