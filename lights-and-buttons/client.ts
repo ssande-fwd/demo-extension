@@ -20,7 +20,7 @@ namespace lightsAndButtons {
     //% group="Button"
     //% block="on %button $event"
     //% blockId=on_press
-    fwdOnPress(event: jacdac.ButtonEvent, handler: () => void) { super.onEvent(event, handler) }
+    demoOnPress(event: jacdac.ButtonEvent, handler: () => void) { super.onEvent(event, handler) }
 
     /**
      * Returns the ms duration of the last button hold in ms
@@ -28,7 +28,7 @@ namespace lightsAndButtons {
     //% group="Button"
     //% block="%button hold duration (ms)"
     //% blockId=hold_duration
-    fwdHoldDuration(): number { return super.holdDuration() }
+    demoHoldDuration(): number { return super.holdDuration() }
 
     /**
      * Returns true if the button is currently pressed, otherwise false
@@ -36,7 +36,7 @@ namespace lightsAndButtons {
     //% group="Button"
     //% block="%button pressed"
     //% blockId=is_pressed
-    fwdIsPressed(): boolean { return super.pressed() }
+    demoIsPressed(): boolean { return super.pressed() }
 
   }
 

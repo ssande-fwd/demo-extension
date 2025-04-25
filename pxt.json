@@ -1,6 +1,6 @@
 {
     "name": "demo-extension",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Generic code for demonstrating things in Jacdac / MakeCode.",
     "license": "MIT",
     "dependencies": {
