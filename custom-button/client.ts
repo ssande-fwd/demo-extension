@@ -2,8 +2,6 @@ namespace customButton {
   
   export class ButtonClient extends modules.ButtonClient {
 
-    private static _instanceCount = 0;
-
     constructor(role: string) {
       super(role)
       ButtonClient._instanceCount++;
