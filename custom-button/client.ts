@@ -2,13 +2,15 @@ namespace customButton {
   
   export class ButtonClient extends modules.ButtonClient {
 
+    private static instanceCount = 0;
+
     constructor(role: string) {
       super(role)
-      ButtonClient._instanceCount++;
+      ButtonClient.instanceCount++;
     }
 
     static getCreatedCount(): number {
-      return ButtonClient._instanceCount;
+      return ButtonClient.instanceCount;
     }
 
     /**
@@ -35,15 +37,6 @@ namespace customButton {
     //% block="%button pressed"
     //% blockId=is_pressed
     demoIsPressed(): boolean { return super.pressed() }
-
-    /**
-     * testing
-     * @param event Button pressed (down), held, released (up)
-     */
-    //% group="Button"
-    //% block="%button $event"
-    //% blockId=is_button_event
-    demoIsButtonEvent(event: jacdac.ButtonEvent): boolean { return true }
 
   }
 
