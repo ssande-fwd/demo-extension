@@ -17,7 +17,7 @@ namespace customButton {
      * Code to run when a chosen event occurs
      * @param event Button pressed (down), held, released (up)
      */
-    //% handlerStatement=1
+    //% afterOnStart=1
     //% group="Button"
     //% block="on %button $event"
     //% blockId=on_press
