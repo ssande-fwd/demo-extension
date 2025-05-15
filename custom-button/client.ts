@@ -14,7 +14,7 @@ namespace customButton {
     }
 
     /**
-     * Code to run when a chosen event occurs
+     * Code to run when a chosen event occurs test
      * @param event Button pressed (down), held, released (up)
      */
     //% afterOnStart=1
