@@ -1,6 +1,6 @@
 {
     "name": "Custom Button",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "User generated button Jacdac clients",
     "license": "MIT",
     "dependencies": {
