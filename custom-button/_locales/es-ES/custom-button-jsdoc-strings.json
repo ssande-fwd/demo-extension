@@ -1,0 +1,7 @@
+{
+    "customButton.ButtonClient.demoHoldDuration": "Devuelve la duración de la última pulsación prolongada en ms",
+    "customButton.ButtonClient.demoIsPressed": "Devuelve true si el botón está presionado actualmente; de lo contrario, false",
+    "customButton.ButtonClient.demoOnPress": "Código a ejecutar cuando ocurre un evento seleccionado",
+    "customButton.ButtonClient.demoOnPress|param|event": "Botón presionado (down), mantenido (held), soltado (up)",
+    "customButton.createbutton": "Crea un cliente de botón y lo asigna automáticamente a una variable."
+}

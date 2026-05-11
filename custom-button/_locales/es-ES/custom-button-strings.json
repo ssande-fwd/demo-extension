@@ -1,0 +1,9 @@
+{
+    "customButton.ButtonClient.demoHoldDuration|block": "duración de pulsación de %button (ms)",
+    "customButton.ButtonClient.demoIsPressed|block": "%button presionado",
+    "customButton.ButtonClient.demoOnPress|block": "al $event %button",
+    "customButton.createbutton|block": "Crear Botón",
+    "customButton|block": "BotónPersonalizado",
+    "{id:category}CustomButton": "BotónPersonalizado",
+    "{id:group}Button": "Botón"
+}

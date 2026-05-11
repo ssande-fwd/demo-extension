@@ -1,12 +1,12 @@
 {
-    "name": "Custom Button",
+    "name": "custom-button",
     "version": "0.0.4",
     "description": "User generated button Jacdac clients",
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "jacdac": "github:microsoft/pxt-jacdac",
-        "jacdac-button": "github:microsoft/pxt-jacdac/button"
+        "jacdac": "github:jacdac/pxt-jacdac#v1.9.41",
+        "jacdac-button": "github:jacdac/pxt-jacdac/button#v1.9.41"
     },
     "files": [
         "client.ts"
